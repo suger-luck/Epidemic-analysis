@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1058</width>
+    <height>823</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>疫情期间的数据分析与情感分析器</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="C:\Users\Suger\Downloads\a.jpg"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>1001</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="maximumSize">
+        <size>
+         <width>929</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>黑体</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>                   疫情期间的数据分析与情感分析器</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="Weibo">
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 85, 255)</string>
+             </property>
+             <property name="text">
+              <string>          微博          </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="sizeConstraint">
+              <enum>QLayout::SetDefaultConstraint</enum>
+             </property>
+             <item>
+              <widget class="QPushButton" name="word_rank">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>关键词排名</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="weibo_cloud">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>词云分析</string>
+               </property>
+               <property name="autoRepeatDelay">
+                <number>0</number>
+               </property>
+               <property name="autoRepeatInterval">
+                <number>0</number>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="data_emotion">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>情感值分析</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="Tencent">
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(170, 255, 255)</string>
+             </property>
+             <property name="text">
+              <string>       腾讯网数据       </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="sizeConstraint">
+              <enum>QLayout::SetDefaultConstraint</enum>
+             </property>
+             <item>
+              <widget class="QPushButton" name="city">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>湖北省各市数据</string>
+               </property>
+               <property name="autoRepeatDelay">
+                <number>0</number>
+               </property>
+               <property name="autoRepeatInterval">
+                <number>0</number>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="province">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>各省之间疫情对比</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="data_all">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>全国疫情发展趋势</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="News">
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 0)</string>
+             </property>
+             <property name="text">
+              <string>中国社会组织公共服务平台</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="sizeConstraint">
+              <enum>QLayout::SetDefaultConstraint</enum>
+             </property>
+             <item>
+              <widget class="QPushButton" name="tfidf">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>81</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>TF-IDF关键词</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="news_cloud">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>词云分析</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="LDA">
+               <property name="maximumSize">
+                <size>
+                 <width>140</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>LDA主题词</string>
+               </property>
+               <property name="autoRepeatDelay">
+                <number>0</number>
+               </property>
+               <property name="autoRepeatInterval">
+                <number>0</number>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="show_title">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>578</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>                       数据展示区域</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="show_lable">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>578</width>
+             <height>600</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>黑体</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>                情感值分析中情感数值在0以上的为好情绪</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

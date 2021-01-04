@@ -1,0 +1,13 @@
+- 新闻数据
+    - 网站
+        - http://www.chinanpo.gov.cn
+    - 数据的条数
+        - 1457条
+    - 时间跨度
+        - 1.26 - 7.24
+    - 数据格式 
+        - csv
+        - url,title,publish_date,source,article_text
+        - 地址 标题 日期 来源 正文
+    - scrapy 爬虫
+
