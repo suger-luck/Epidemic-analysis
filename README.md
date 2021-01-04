@@ -1,8 +1,8 @@
 # Epidemic-analysis
 This software is only for learning records and communication
--The programming language used by this software is python3.7
--The python expansion package versions used are in the pip_list.txt file, which can be used as a reference
--To execute the program, please use python gui.py to execute the program in the cloned project folder
+- The programming language used by this software is python3.7
+- The python expansion package versions used are in the pip_list.txt file, which can be used as a reference
+- To execute the program, please use python gui.py to execute the program in the cloned project folder
 # 疫情数据分析
 本软件只作为学习记录、交流
 - 本软件使用的编程语言是python3.7
